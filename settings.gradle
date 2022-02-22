@@ -4,6 +4,8 @@ include ':ble-common'
 include ':ble-livedata'
 include ':example:ble-gatt-client'
 include ':example:ble-gatt-server'
+include ':example:ble-scanner'
 
 project(':example:ble-gatt-client').projectDir = file('examples/ble-gatt-client')
 project(':example:ble-gatt-server').projectDir = file('examples/ble-gatt-server')
+project(':example:ble-scanner').projectDir = file('examples/ble-scanner')
