@@ -133,3 +133,6 @@ class MyBleManager extends BleManager {
    As `BleManager` is no longer a generic type, you'll have to implement this logic on your own.
    E.g., nRF Blinky is exposing LED and Button state using `LiveData`, which are available for the
    Activity through `ViewModel`.
+
+
+`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`
